@@ -1,6 +1,6 @@
 from string import *
 
-print 'The script and input file should be in the same folder. Output will be created at the same location as that of the script.\n'
+print 'The script and input fasta file should be in the same folder. Output will be created at the same location as that of the script.\n'
 fname = raw_input('Please enter the name of the fasta file: ')
 ifile = open(fname, 'r')
 itext = ifile.read().split('>')
